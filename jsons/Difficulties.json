@@ -1,5 +1,26 @@
 [
 	{
 		"name": "Easy",
-	}
+	},
+
+	//Unused, just to remove errors
+	
+	{
+		"name": "Prince",
+	},
+	{
+		"name": "King",
+	},
+	{
+		"name": "Emperor",
+	},
+	{
+		"name": "Immortal",
+	},
+	{
+		"name": "Diety",
+	},
+	{
+		"name": "Warlord",
+	},
 ]
