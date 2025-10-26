@@ -1,3 +1,7 @@
 [
 	{
-		"name":
+		"name": "Artillery Piece",
+		"movementType": "Air",
+		"uniques": ["Invisible to others",
+					"Can only attack [City] units",
+					"Must set up to ranged attack"]
