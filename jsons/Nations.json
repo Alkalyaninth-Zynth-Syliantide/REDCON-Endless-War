@@ -7,7 +7,7 @@
 		"innerColor": [235, 20, 5],
 		
 		"startBias": ["Mountains"],
-		"preferredVictoryType": "Capita Hostilia Annexa",
+		"preferredVictoryType": "S - Capita Hostilia Annexa",
 		
 		"startIntroPart1": "War efforts provides purpose... and entertainment. War is Peace.",
 		"startIntroPart2": "- Fuhrer Adler Grimm",
@@ -31,7 +31,7 @@
 		"innerColor": [235, 20, 5],
 		
 		"startBias": ["Plains"],
-		"preferredVictoryType": "Subiugatio Hostium",
+		"preferredVictoryType": "K - Subiugatio Hostium",
 		
 		"startIntroPart1": "The world must know, the heinous crimes of the Fuhrer Adler Grimm.",
 		"startIntroPart2": "- General Kranz",
