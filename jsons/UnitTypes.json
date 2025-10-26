@@ -6,6 +6,6 @@
 	{
 		"name": "Ordnance",
 		"movementType": "Air",
-		"uniques": ["Can only attack [City] units"]
+		"uniques": ["Cannot attack <in tiles without [fortress]>"]
 	}
 ]
