@@ -1,0 +1,13 @@
+[
+	{
+		"name": "Great Unification War",
+		
+        "startingSettlerCount": 1,
+		"startingSettlerUnit": "Fortress Engineer",
+		
+        "startingWorkerCount": 0,
+		
+        "startingMilitaryUnitCount": 1,
+		"startingMilitaryUnit": "Soldier"
+	}
+]
