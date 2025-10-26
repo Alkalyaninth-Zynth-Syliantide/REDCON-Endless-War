@@ -1,12 +1,26 @@
 [
+	//Infantry
+	
+	{
+		"name": "Fortress Engineer",
+		"unitType": "Infantry",
+		"movement": 1,
+		"strength": 100,
+		"range": 1,
+		"cost": 10,
+		"attackSound": "phasers"
+	},
+	
+	//Fortress Ordnance
+	
 	{
 		"name": "BASILISK Cannon",
-		"unitType": "Artillery Piece",
+		"unitType": "Ordnance",
 		"movement": 1,
 		"strength": 80,
 		"rangedStrength": 80,
 		"range": 10,
-		"cost": 300,
+		"cost": 30,
 		"attackSound": "phasers"
 	}
 ]
