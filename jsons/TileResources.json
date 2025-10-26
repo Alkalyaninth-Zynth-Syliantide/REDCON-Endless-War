@@ -3,9 +3,11 @@
 		"name": "Energy"
 	},
 	{
-		"name": "Ammunition"
+		"name": "Ammunition",
+		"resourceType": "Luxury"
 	},
 	{
 		"name": "Operators"
+		"resourceType": "Strategic"
 	}
 ]
