@@ -7,7 +7,6 @@
 		"rangedStrength": 80,
 		"range": 10,
 		"cost": 300,
-		"requiredTech": "Ballistics",
 		"attackSound": "phasers"
 	}
 ]
