@@ -21,8 +21,7 @@
 		"uniques": ["[+25]% Strength <when defending>",
 					"[+1] Movement"],
 		
-		"cities": ["Fortress Rubicon", "Fortress Resolution", "Centurion Missile Pod", "Fortress Falcon", "The Great Bulwark",
-				   "Fortress Scarabeus", "The Spire", "Fort Sycamore", "Fort Raptor"]
+		"cities": ["Supremum Palatium"]
 	},
 	{
 		"name": "The Krux Rebellion",
@@ -39,13 +38,12 @@
 		"declaringWar": "For the sake of humanity... May the best general win... All cannons, REDCON 1!",
 		"attacked": "You have finally decided to attack us... DO YOUR WORST!!!",
 		"defeated": "You may have defeated me - but the Krux Rebellion will live on & will one day strike once more...",
-		"introduction": "",
-		"tradeRequest": "We have an offer, do you accept?",
+		"introduction": "Get in my way & I shall destroy you too!",
+		"tradeRequest": "I believe this offer of mine will mutually benefit us, what do you say?",
 		
 		"uniqueName": "Magister Belli",
 		"uniques": ["[1] additional attacks per turn"],
 		
-		"cities": ["Fortress K Rubicon", "Fortress K Resolution", "K Centurion Missile Pod", "Fortress K Falcon", "The Great BulwarK",
-				   "Fortress K Scarabeus", "The SpiKe", "Fort K Sycamore", "Fort K Raptor"]
+		"cities": ["Remus"]
 	}
 ]
