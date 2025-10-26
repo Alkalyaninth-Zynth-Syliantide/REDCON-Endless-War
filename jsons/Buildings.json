@@ -3,49 +3,53 @@
 	
 	{
 		"name": "Small Workshop",
-		"cost": 100,
-		"production": 100,
+		"cost": 10,
+		"production": 2,
 	},
 	{
 		"name": "Medium Workshop",
-		"cost": 200,
-		"production": 100,
+		"cost": 30,
+		"production": 8,
 	},
 	{
 		"name": "Large Workshop",
-		"cost": 500,
-		"production": 100,
+		"cost": 100,
+		"production": 10,
 	},
 
 	//Mints
 	
 	{
 		"name": "Small Mint",
-		"cost": 100,
-		"gold": 100,
+		"cost": 30,
+		"gold": 2,
 	},
 	{
 		"name": "Medium Mint",
-		"cost": 200,
-		"gold": 100,
+		"cost": 50,
+		"gold": 8,
 	},
 	{
 		"name": "Large Mint",
-		"cost": 500,
-		"gold": 100,
+		"cost": 70,
+		"gold": 15,
 	},
 	
 	//Munitions Depot
 	
 	{
 		"name": "Small Munitions Depot",
-		"cost": 70,
-		"maintenance": 7,
+		"cost": 20,
+		"maintenance": 1,
 	},
 	{
-		"name": "Breeders",
-		"cost": 80,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+		"name": "Medium Munitions Depot",
+		"cost": 50,
+		"maintenance": 2,
+	}
+	{
+		"name": "Large Munitions Depot",
+		"cost": 100,
+		"maintenance": 3,
 	}
 ]
