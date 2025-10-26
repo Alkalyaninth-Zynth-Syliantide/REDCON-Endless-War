@@ -8,7 +8,7 @@
 		"strength": 80,
 		"range": 1,
 		"cost": 10,
-		"uniques": ["Founds a new city"]
+		"uniques": ["Founds a new city <by consuming this unit>"]
 	},
 	{
 		"name": "Soldier",
