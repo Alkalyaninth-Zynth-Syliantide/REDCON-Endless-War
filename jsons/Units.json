@@ -5,10 +5,18 @@
 		"name": "Fortress Engineer",
 		"unitType": "Infantry",
 		"movement": 1,
+		"strength": 80,
+		"range": 1,
+		"cost": 10,
+		"uniques": ["Founds a new city"]
+	},
+	{
+		"name": "Soldier",
+		"unitType": "Infantry",
+		"movement": 2,
 		"strength": 100,
 		"range": 1,
 		"cost": 10,
-		"attackSound": "phasers"
 	},
 	
 	//Fortress Ordnance
