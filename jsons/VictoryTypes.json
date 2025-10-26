@@ -1,18 +1,10 @@
 [
 	{
-		"name": "S - Capita Hostilia Annexa",
-		"Milestones": ["Capture all capitals", "Build [Corona Muralis Imperatoris]"]
+		"name": "Capita Hostilia Annexa",
+		"Milestones": ["Capture all capitals", "Destroy all players", "Build [Corona Muralis Imperatoris]"]
 
 		"victoryScreenHeader": "Annex all capitals",
 		"victoryString": "You conquered the capitals of all major civilizations!",
 		"defeatString": "The enemies have annexed the capitals of all civilizations.."
-	},
-	{
-		"name": "K - Subiugatio Hostium",
-		"Milestones": ["Destroy all players", "Build [Corona Muralis Rebellionis]"]
-
-		"victoryScreenHeader": "Defeat all Hostiles",
-		"victoryString": "You have subjugated your enemies & claimed victory!",
-		"defeatString": "It is the end, for you have been crushed by the opposition."
 	}
 ]
