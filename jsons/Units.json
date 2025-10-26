@@ -30,5 +30,11 @@
 		"range": 10,
 		"cost": 30,
 		"attackSound": "phasers"
+	},
+
+	//Unused, just to remove errors
+	{
+		"name": "Settler",
+		"unitType": "Infantry"
 	}
 ]
