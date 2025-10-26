@@ -3,8 +3,8 @@
 		"name": "The Empire State",
 		"leaderName": "Fuhrer Adler Grimm",
 		"adjective": ["Human"],
-		"outerColor": [247, 219, 5],
-		"innerColor": [247, 21, 5],
+		"outerColor": [247, 220, 17],
+		"innerColor": [235, 20, 5],
 		
 		"startBias": ["Mountain"],
 		"preferredVictoryType": "Subiugatio Hostium",
