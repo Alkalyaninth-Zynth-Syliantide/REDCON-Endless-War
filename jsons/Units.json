@@ -30,16 +30,5 @@
 		"range": 10,
 		"cost": 30,
 		"attackSound": "phasers"
-	},
-
-	//Unused, just to remove errors
-	
-	{
-		"name": "Worker",
-		"unitType": "Infantry",
-	},
-	{
-		"name": "Settler",
-		"unitType": "Infantry",
 	}
 ]
