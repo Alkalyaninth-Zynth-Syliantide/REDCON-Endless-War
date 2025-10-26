@@ -1,19 +1,50 @@
 [
+	//Workshops
+	
 	{
-		"name": "Holodeck",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
+		"name": "Small Workshop",
+		"cost": 100,
+		"production": 100,
+	},
+	{
+		"name": "Medium Workshop",
+		"cost": 200,
+		"production": 100,
+	},
+	{
+		"name": "Large Workshop",
+		"cost": 500,
+		"production": 100,
+	},
+
+	//Mints
+	
+	{
+		"name": "Small Mint",
+		"cost": 100,
+		"gold": 100,
+	},
+	{
+		"name": "Medium Mint",
+		"cost": 200,
+		"gold": 100,
+	},
+	{
+		"name": "Large Mint",
+		"cost": 500,
+		"gold": 100,
+	},
+	
+	//Munitions Depot
+	
+	{
+		"name": "Small Munitions Depot",
+		"cost": 70,
+		"maintenance": 7,
 	},
 	{
 		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
 		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
 		"uniques": ["40% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
 	}
