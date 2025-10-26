@@ -69,7 +69,7 @@
 		"name": "Medium Munitions Depot",
 		"cost": 50,
 		"maintenance": 2,
-	}
+	},
 	{
 		"name": "Large Munitions Depot",
 		"cost": 100,
