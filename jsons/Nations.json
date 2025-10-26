@@ -22,5 +22,29 @@
 		
 		"cities": ["Fortress Rubicon", "Fortress Resolution", "Centurion Missile Pod", "Fortress Falcon", "The Great Bulwark",
 				   "Fortress Scarabeus", "The Spire", "Fort Sycamore", "Fort Raptor"]
+	},
+	{
+		"name": "The Krux Rebellion",
+		"leaderName": "General Franz Erhard Kranz",
+		"adjective": ["Human"],
+		"outerColor": [247, 220, 17],
+		"innerColor": [235, 20, 5],
+		
+		"startBias": ["Mountain"],
+		"preferredVictoryType": "Subiugatio Hostium",
+		
+		"startIntroPart1": "The world must know, the heinous crimes of the Fuhrer Adler Grimm.",
+		"startIntroPart2": "- General Kranz",
+		"declaringWar": "For the sake of humanity... May the best general win... All cannons, REDCON 1!",
+		"attacked": "You have finally decided to attack us... DO YOUR WORST!!!",
+		"defeated": "You may have defeated me - but the Krux Rebellion will live on & will one day strike once more...",
+		"introduction": "",
+		"tradeRequest": "We have an offer, do you accept?",
+		
+		"uniqueName": "Magister Belli",
+		"uniques": ["[1] additional attacks per turn"],
+		
+		"cities": ["Fortress K Rubicon", "Fortress K Resolution", "K Centurion Missile Pod", "Fortress K Falcon", "The Great BulwarK",
+				   "Fortress K Scarabeus", "The SpiKe", "Fort K Sycamore", "Fort K Raptor"]
 	}
 ]
