@@ -1,0 +1,10 @@
+[
+	{
+		"name": "Subiugatio Hostium",
+		"Milestones": ["Destroy all players"]
+
+		"victoryScreenHeader": "Defeat all Hostiles",
+		"victoryString": "You have subjugated your enemies & claimed victory!",
+		"defeatString": "It is the end, for you have been crushed by the opposition."
+	}
+]
