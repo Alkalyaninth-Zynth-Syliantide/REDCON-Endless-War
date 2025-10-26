@@ -1,4 +1,27 @@
 [
+	//Nation Unique Buildings
+	
+	{
+		"name": "Corona Muralis Imperatoris",
+		"cost": 1000,
+		"isWonder": true,
+		"isNationalWonder": true,
+		"uniqueTo": "The Empire State",
+		"uniques": ["Triggers a global alert upon build start",
+					"Triggers a global alert upon completion",
+					"Destroyed when the city is captured"],
+	},
+	{
+		"name": "Corona Muralis Rebellionis",
+		"cost": 1000,
+		"isWonder": true,
+		"isNationalWonder": true,
+		"uniqueTo": "The Krux Rebellion",
+		"uniques": ["Triggers a global alert upon build start",
+					"Triggers a global alert upon completion",
+					"Destroyed when the city is captured"],
+	},
+	
 	//Workshops
 	
 	{
