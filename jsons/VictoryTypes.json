@@ -1,7 +1,7 @@
 [
 	{
 		"name": "Capita Hostilia Annexa",
-		"Milestones": ["Capture all capitals", "Destroy all players", "Build [Corona Muralis Imperatoris]"]
+		"Milestones": ["Capture all capitals", "Destroy all players", "Build [Summa Corona Muralis]"]
 
 		"victoryScreenHeader": "Annex all capitals",
 		"victoryString": "You conquered the capitals of all major civilizations!",
