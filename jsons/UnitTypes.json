@@ -6,6 +6,6 @@
 	{
 		"name": "Ordnance",
 		"movementType": "Air",
-		"uniques": ["Cannot attack <in tiles without [Fortress]>"]
+		"uniques": ["Cannot attack <in tiles without [Comment [Fortress]]>"]
 	}
 ]
