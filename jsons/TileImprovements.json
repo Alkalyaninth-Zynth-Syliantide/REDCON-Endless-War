@@ -2,10 +2,9 @@
 	//Fortresses
 	
 	{
-		"name": "Fortress Type Raptor",
+		"name": "Fortress",
 		"terrainsCanBeBuiltOn": ["Plains", "Mountains"],
-		"uniques": ["Comment [Fortress]",
-					"Gives a defensive bonus of [+100]%",
+		"uniques": ["Gives a defensive bonus of [+100]%",
 					"Destroyed when pillaged",
 					"Can be built outside your borders"]
 	}
