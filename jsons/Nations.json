@@ -6,7 +6,7 @@
 		"outerColor": [247, 220, 17],
 		"innerColor": [235, 20, 5],
 		
-		"startBias": ["Mountain"],
+		"startBias": ["Mountains"],
 		"preferredVictoryType": "Capita Hostilia Annexa",
 		
 		"startIntroPart1": "War efforts provides purpose... and entertainment. War is Peace.",
@@ -18,7 +18,8 @@
 		"tradeRequest": "We have an offer, do you accept?",
 		
 		"uniqueName": "Sector Tutum",
-		"uniques": ["[+1] Movement"],
+		"uniques": ["[+25]% Strength <when defending>",
+					"[+1] Movement"],
 		
 		"cities": ["Fortress Rubicon", "Fortress Resolution", "Centurion Missile Pod", "Fortress Falcon", "The Great Bulwark",
 				   "Fortress Scarabeus", "The Spire", "Fort Sycamore", "Fort Raptor"]
@@ -30,7 +31,7 @@
 		"outerColor": [247, 220, 17],
 		"innerColor": [235, 20, 5],
 		
-		"startBias": ["Mountain"],
+		"startBias": ["Plains"],
 		"preferredVictoryType": "Subiugatio Hostium",
 		
 		"startIntroPart1": "The world must know, the heinous crimes of the Fuhrer Adler Grimm.",
