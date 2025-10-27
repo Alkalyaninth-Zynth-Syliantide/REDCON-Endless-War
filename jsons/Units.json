@@ -31,7 +31,7 @@
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 100,
-		"range": 1,
+		"range": 2,
 		"cost": 10,
 	},
 
