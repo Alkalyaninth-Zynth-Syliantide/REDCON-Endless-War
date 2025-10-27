@@ -22,7 +22,8 @@
 		"strength": 80,
 		"range": 1,
 		"cost": 10,
-		"uniques": ["Can build [Land] improvements on tiles",
+		"uniques": ["Costs [1] [Unassigned Operator]",
+					"Can build [Land] improvements on tiles",
 					"Founds a new city <once>",
 					"Limited to [3] per Civilization"]
 	},
@@ -33,6 +34,7 @@
 		"strength": 100,
 		"range": 2,
 		"cost": 10,
+		"uniques": ["Costs [1] [Unassigned Operator]"]
 	},
 
 	//Commander
@@ -63,6 +65,7 @@
 		
 				//Base Behavior
 					"Cannot attack",
+					"Costs [1] [Unassigned Operator]",
 					"Limited to [5] per Civilization"]
 	},
 
@@ -84,7 +87,8 @@
 					"[20] Sight <in [Fort Raptor] tiles>",
 
 				//Base Behavior
-					"[10] Sight"]
+					"[10] Sight",
+					"Costs [1] [Unassigned Operator]"]
 	},
 	{
 		"name": "Fleet Command Operator",
@@ -99,7 +103,8 @@
 					"[10] Sight <in [Airforce Transit Depot] tiles>",
 
 				//Base Behavior
-					"[1] Sight"]
+					"[1] Sight",
+					"Costs [1] [Unassigned Operator]"]
 	},
 	{
 		"name": "Medical Ray Station Operator",
@@ -112,6 +117,7 @@
 		"uniques": [
 				//Base Behavior
 					"[1] Sight",
+					"Costs [1] [Unassigned Operator]",
 					"All adjacent units heal [2] HP when healing"]
 	},
 	{
@@ -135,6 +141,8 @@
 			
 				//Base Behavior
 					"[1] Sight",
+			
+					"Costs [1] [Unassigned Operator]",
 
 					"Cannot attack <when below [2] [Power]>",
 					"Cannot attack <when below [4] [Ammunition]>",
