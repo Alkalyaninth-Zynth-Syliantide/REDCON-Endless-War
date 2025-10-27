@@ -134,7 +134,13 @@
 					"[7] Sight <in [Fort Raptor] tiles>",
 			
 				//Base Behavior
-					"[1] Sight"]
+					"[1] Sight",
+
+					"Cannot attack <when below [2] [Energy]>",
+					"Cannot attack <when below [4] [Ammunition]>",
+			
+					"Consumes [2] [Energy] <when attacking>",
+					"Consumes [4] [Ammunition] <when attacking>"]
 	},
 
 	//Unused, just to remove errors
