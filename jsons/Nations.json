@@ -3,8 +3,8 @@
 		"name": "The Empire State",
 		"leaderName": "Fuhrer Adler Grimm",
 		"adjective": ["Human"],
-		"outerColor": [247, 220, 17],
-		"innerColor": [235, 20, 5],
+		"outerColor": [235, 20, 5],
+		"innerColor": [247, 220, 17],
 		
 		"startBias": ["Mountains"],
 		"preferredVictoryType": "Capita Hostilia Annexa",
@@ -21,14 +21,14 @@
 		"uniques": ["[+25]% Strength <when defending>",
 					"[+1] Movement"],
 		
-		"cities": ["Supremum Palatium"]
+		"cities": ["Brellin"]
 	},
 	{
 		"name": "The Krux Rebellion",
 		"leaderName": "General Franz Erhard Kranz",
 		"adjective": ["Human"],
-		"outerColor": [247, 220, 17],
-		"innerColor": [235, 20, 5],
+		"outerColor": [28, 28, 28],
+		"innerColor": [0, 139, 181],
 		
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Capita Hostilia Annexa",
