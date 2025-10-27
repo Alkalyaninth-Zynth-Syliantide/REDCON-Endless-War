@@ -5,12 +5,12 @@
 		"name": "Military Academy",
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"turnsToBuild": 3,
-		"uniques": ["Provides [1] [Unassigned Operator] <when above [0] [Power]> <upon turn end>",
-					"Provides [1] [Unassigned Operator] <with [20]% chance> <if [Posters] is constructed> <when above [0] [Power]> <upon turn end>",
-					"Provides [1] [Unassigned Operator] <with [40]% chance> <if [Newspapers] is constructed> <when above [0] [Power]> <upon turn end>",
-					"Provides [1] [Unassigned Operator] <with [60]% chance> <if [Radio] is constructed> <when above [0] [Power]> <upon turn end>",
-					"Provides [1] [Unassigned Operator] <with [80]% chance> <if [Films] is constructed> <when above [0] [Power]> <upon turn end>",
-					"Consumes [1] [Power] <when above [0] [Power]> <upon turn end>",
+		"uniques": ["Provides [1] [Unassigned Operator] <when above [0] [Power]> <every [1] turns>",
+					"Provides [1] [Unassigned Operator] <with [20]% chance> <if [Posters] is constructed> <when above [0] [Power]> <every [1] turns>",
+					"Provides [1] [Unassigned Operator] <with [40]% chance> <if [Newspapers] is constructed> <when above [0] [Power]> <every [1] turns>",
+					"Provides [1] [Unassigned Operator] <with [60]% chance> <if [Radio] is constructed> <when above [0] [Power]> <every [1] turns>",
+					"Provides [1] [Unassigned Operator] <with [80]% chance> <if [Films] is constructed> <when above [0] [Power]> <every [1] turns>",
+					"Consumes [1] [Power] <when above [0] [Power]> <every [1] turns>",
 			
 					"Destroyed when pillaged"]
 	},
@@ -18,8 +18,8 @@
 		"name": "Munitions Depot",
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"turnsToBuild": 3,
-		"uniques": ["Provides [10] [Ammunition] <when above [2] [Power]> <upon turn end>",
-					"Consumes [3] [Power] <when above [2] [Power]> <upon turn end>",
+		"uniques": ["Provides [10] [Ammunition] <when above [2] [Power]> <every [1] turns>",
+					"Consumes [3] [Power] <when above [2] [Power]> <every [1] turns>",
 			
 					"Destroyed when pillaged"]
 	},
@@ -27,8 +27,8 @@
 		"name": "Blast Engine",
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"turnsToBuild": 3,
-		"uniques": ["Provides [9] [Power] <when above [4] [Ammunition]> <upon turn end>",
-					"Consumes [5] [Ammunition] <when above [4] [Ammunition]> <upon turn end>",
+		"uniques": ["Provides [9] [Power] <when above [4] [Ammunition]> <every [1] turns>",
+					"Consumes [5] [Ammunition] <when above [4] [Ammunition]> <every [1] turns>",
 			
 					"Destroyed when pillaged"]
 	},
@@ -36,7 +36,7 @@
 		"name": "Nuclear Reactor",
 		"terrainsCanBeBuiltOn": ["Plains"],
 		"turnsToBuild": 5,
-		"uniques": ["Provides [20] [Power] <upon turn end>",
+		"uniques": ["Provides [20] [Power] <every [1] turns>",
 			
 					"Destroyed when pillaged"]
 	},
