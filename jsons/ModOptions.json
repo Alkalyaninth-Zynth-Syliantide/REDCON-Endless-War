@@ -4,6 +4,6 @@
 					"cityExpandRange": 30,
 					"minimalCityDistance": 5,
 					"cityAirUnitCapacity": 10,
-					"baseCityBombardRange": 0,
+					"baseCityBombardRange": 1,
 				}
 }
