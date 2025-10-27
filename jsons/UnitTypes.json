@@ -1,14 +1,18 @@
 [
 	{
 		"name": "Airship",
-		"movementType": "Air",
+		"movementType": "Land",
 	},
 	{
 		"name": "Infantry",
 		"movementType": "Land",
 	},
 	{
-		"name": "Operator",
+		"name": "Commander",
 		"movementType": "Land",
+	},
+	{
+		"name": "Operator",
+		"movementType": "Air",
 	}
 ]
