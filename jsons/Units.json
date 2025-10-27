@@ -119,6 +119,7 @@
 		"unitType": "Operator",
 		"movement": 2,
 		"strength": 100,
+		"rangedStrength": 12,
 		"range": 1,
 		"cost": 50,
 		"uniques": [
@@ -133,8 +134,7 @@
 					"[7] Sight <in [Fort Raptor] tiles>",
 			
 				//Base Behavior
-					"[1] Sight",
-					"[-88]% Strength <when attacking>"]
+					"[1] Sight"]
 	},
 
 	//Unused, just to remove errors
