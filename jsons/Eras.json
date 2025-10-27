@@ -8,6 +8,6 @@
         "startingWorkerCount": 0,
 		
         "startingMilitaryUnitCount": 1,
-		"startingMilitaryUnit": "Soldier"
+		"startingMilitaryUnit": "Foot Soldier"
 	}
 ]
