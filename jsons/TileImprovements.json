@@ -1,4 +1,33 @@
 [
+	//Power & Ammunition Plants
+
+	{
+		"name": "Munitions Depot",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"turnsToBuild": 3,
+		"uniques": ["Provides [10] [Ammunition] <when above [2] [Power]> <upon turn end>",
+					"Consumes [3] [Power] <when above [2] [Power]> <upon turn end>",
+			
+					"Destroyed when pillaged"]
+	},
+	{
+		"name": "Blast Engine",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"turnsToBuild": 3,
+		"uniques": ["Provides [9] [Power] <when above [4] [Ammunition]> <upon turn end>",
+					"Consumes [5] [Ammunition] <when above [4] [Ammunition]> <upon turn end>",
+			
+					"Destroyed when pillaged"]
+	},
+	{
+		"name": "Nuclear Reactor",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"turnsToBuild": 5,
+		"uniques": ["Provides [20] [Power] <upon turn end>",
+			
+					"Destroyed when pillaged"]
+	},
+	
 	//Outposts & Fortresses
 	
 	{
