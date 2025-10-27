@@ -136,11 +136,11 @@
 				//Base Behavior
 					"[1] Sight",
 
-					"Cannot attack <when below [2] [Energy]>",
+					"Cannot attack <when below [2] [Power]>",
 					"Cannot attack <when below [4] [Ammunition]>",
 			
-					"Consumes [2] [Energy] <when attacking>",
-					"Consumes [4] [Ammunition] <when attacking>"]
+					"Consumes [2] [Power] <when above [1] [Power]> <when attacking>",
+					"Consumes [4] [Ammunition] <when above [3] [Ammunition]> <when attacking>"]
 	},
 
 	//Unused, just to remove errors
