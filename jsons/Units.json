@@ -35,11 +35,11 @@
 		"cost": 10,
 	},
 
-	//Operators
+	//Commander
 	
 	{
 		"name": "Strike Commander",
-		"unitType": "Operator",
+		"unitType": "Commander",
 		"movement": 2,
 		"strength": 100,
 		"range": 1,
@@ -56,6 +56,9 @@
 					"Cannot attack",
 					"Limited to [5] per Civilization"]
 	},
+
+	//Operators
+	
 	{
 		"name": "Ballistic Radar & EWS Operator",
 		"unitType": "Operator",
