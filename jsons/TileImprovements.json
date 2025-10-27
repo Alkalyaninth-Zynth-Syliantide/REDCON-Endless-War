@@ -1,8 +1,21 @@
 [
-	//Ootposts
+	//Outposts & Fortresses
 	
 	{
 		"name": "Aux Light Artillery Station",
+		"terrainsCanBeBuiltOn": ["Plains", "Mountains"],
+		"uniques": ["Gives a defensive bonus of [+100]%",
+					"Destroyed when pillaged",
+					"Can be built outside your borders"]
+	},
+	{
+		"name": "Airforce Transit Depot",
+		"terrainsCanBeBuiltOn": ["Plains", "Mountains"],
+		"uniques": ["Gives a defensive bonus of [+50]%",
+					"Destroyed when pillaged"]
+	},
+	{
+		"name": "Fort Raptor",
 		"terrainsCanBeBuiltOn": ["Plains", "Mountains"],
 		"uniques": ["Gives a defensive bonus of [+100]%",
 					"Destroyed when pillaged",
