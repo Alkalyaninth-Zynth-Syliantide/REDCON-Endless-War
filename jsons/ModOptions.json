@@ -1,11 +1,9 @@
-[
-	{
-		"isBaseRuleset": true,
-		"constants":{
-						"cityExpandRange": 30,
-						"minimalCityDistance": 5,
-						"cityAirUnitCapacity": 10,
-						"baseCityBombardRange": 0,
-					}
-	}
-]
+{
+	"isBaseRuleset": true,
+	"constants":{
+					"cityExpandRange": 30,
+					"minimalCityDistance": 5,
+					"cityAirUnitCapacity": 10,
+					"baseCityBombardRange": 0,
+				}
+}
