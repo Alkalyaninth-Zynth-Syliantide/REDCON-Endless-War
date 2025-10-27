@@ -1,11 +1,14 @@
 [
 	{
+		"name": "Airship",
+		"movementType": "Air",
+	},
+	{
 		"name": "Infantry",
 		"movementType": "Land",
-	}
+	},
 	{
-		"name": "Ordnance",
+		"name": "Operator",
 		"movementType": "Land",
-		"uniques": ["Cannot attack <in tiles without [Fortress]>"]
 	}
 ]
