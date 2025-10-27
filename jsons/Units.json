@@ -23,7 +23,7 @@
 		"range": 1,
 		"cost": 10,
 		"uniques": ["Can build [Land] improvements on tiles",
-					"Founds a new city",
+					"Founds a new city <once>",
 					"Limited to [1] per Civilization"]
 	},
 	{
