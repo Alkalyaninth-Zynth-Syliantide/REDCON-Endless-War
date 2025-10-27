@@ -1,6 +1,19 @@
 [
-	//Power & Ammunition Plants
+	//Resource Buildings
 
+	{
+		"name": "Military Academy",
+		"terrainsCanBeBuiltOn": ["Plains"],
+		"turnsToBuild": 3,
+		"uniques": ["Provides [1] [Unassigned Operator] <when above [0] [Power]> <upon turn end>",
+					"Provides [1] [Unassigned Operator] <with [20]% chance> <if [Posters] is constructed> <when above [0] [Power]> <upon turn end>",
+					"Provides [1] [Unassigned Operator] <with [40]% chance> <if [Newspapers] is constructed> <when above [0] [Power]> <upon turn end>",
+					"Provides [1] [Unassigned Operator] <with [60]% chance> <if [Radio] is constructed> <when above [0] [Power]> <upon turn end>",
+					"Provides [1] [Unassigned Operator] <with [80]% chance> <if [Films] is constructed> <when above [0] [Power]> <upon turn end>",
+					"Consumes [1] [Power] <when above [0] [Power]> <upon turn end>",
+			
+					"Destroyed when pillaged"]
+	},
 	{
 		"name": "Munitions Depot",
 		"terrainsCanBeBuiltOn": ["Plains"],
