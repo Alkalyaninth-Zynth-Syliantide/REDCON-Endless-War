@@ -119,22 +119,22 @@
 		"unitType": "Operator",
 		"movement": 2,
 		"strength": 100,
-		"rangedStrength": 12,
 		"range": 1,
 		"cost": 50,
 		"uniques": [
 				//Aux Light Artillery Station - Behavior
-					"[10] Range <in [Aux Light Artillery Station] tiles>",
-					"[15] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Aux Light Artillery Station] tiles>",
+					"[9] Range <in [Aux Light Artillery Station] tiles>",
+					"[5] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Aux Light Artillery Station] tiles>",
 					"[5] Sight <in [Aux Light Artillery Station] tiles>",
 
 				//Fort Raptor - Behavior
-					"[11] Range <in [Fort Raptor] tiles>",
-					"[16] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Fort Raptor] tiles>",
+					"[10] Range <in [Fort Raptor] tiles>",
+					"[6] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Fort Raptor] tiles>",
 					"[7] Sight <in [Fort Raptor] tiles>",
 			
 				//Base Behavior
-					"[1] Sight"]
+					"[1] Sight",
+					"[-88]% Strength <when attacking>"]
 	},
 
 	//Unused, just to remove errors
