@@ -1,13 +1,39 @@
 [
-	//Nation Unique Buildings
+	//Propaganda
 	
 	{
-		"name": "Summa Corona Muralis",
-		"cost": 1000,
-		"isWonder": true,
-		"uniques": ["Triggers a global alert upon build start",
-					"Triggers a global alert upon completion",
-					"Destroyed when the city is captured"]
+		"name": "Propaganda Department",
+		"cost": 100,
+		"maintenance": 10,
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Posters",
+		"cost": 100,
+		"maintenance": 1,
+		"requiredBuilding": "Propaganda Department",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Newspapers",
+		"cost": 100,
+		"maintenance": 3,
+		"requiredBuilding": "Propaganda Department",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Radio",
+		"cost": 100,
+		"maintenance": 7,
+		"requiredBuilding": "Propaganda Department",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "Films",
+		"cost": 100,
+		"maintenance": 15,
+		"requiredBuilding": "Propaganda Department",
+		"uniques": ["Destroyed when the city is captured"]
 	},
 	
 	//Workshops
@@ -44,24 +70,6 @@
 		"name": "Large Mint",
 		"cost": 70,
 		"gold": 15,
-	},
-	
-	//Munitions Depot
-	
-	{
-		"name": "Small Munitions Depot",
-		"cost": 20,
-		"maintenance": 1,
-	},
-	{
-		"name": "Medium Munitions Depot",
-		"cost": 50,
-		"maintenance": 2,
-	},
-	{
-		"name": "Large Munitions Depot",
-		"cost": 100,
-		"maintenance": 3,
 	},
 
 	//Developer Building(s)
