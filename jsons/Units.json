@@ -74,7 +74,7 @@
 		"movement": 2,
 		"strength": 100,
 		"rangedStrength": 0,
-		"range": 0,
+		"range": 1,
 		"cost": 50,
 		"uniques": [
 				//Aux Light Artillery Station - Behavior
@@ -92,7 +92,7 @@
 		"movement": 2,
 		"strength": 100,
 		"rangedStrength": 0,
-		"range": 0,
+		"range": 1,
 		"cost": 50,
 		"uniques": [
 				//Airforce Transit Depot - Behavior
@@ -107,7 +107,7 @@
 		"movement": 2,
 		"strength": 80,
 		"rangedStrength": 0,
-		"range": 0,
+		"range": 1,
 		"cost": 50,
 		"uniques": [
 				//Base Behavior
@@ -120,7 +120,7 @@
 		"movement": 2,
 		"strength": 100,
 		"rangedStrength": 12,
-		"range": 0,
+		"range": 1,
 		"cost": 50,
 		"uniques": [
 				//Aux Light Artillery Station - Behavior
