@@ -24,7 +24,7 @@
 		"cost": 10,
 		"uniques": ["Can build [Land] improvements on tiles",
 					"Founds a new city <once>",
-					"Limited to [1] per Civilization"]
+					"Limited to [3] per Civilization"]
 	},
 	{
 		"name": "Foot Soldier",
@@ -44,13 +44,17 @@
 		"strength": 100,
 		"range": 1,
 		"cost": 100,
-		"uniques": ["Cannot attack",
-					"Limited to [5] per Civilization",
-
+		"uniques": [
+				//Aux Light Artillery Station - Behavior
 					"Can carry [3] [Basilisk Operator] units <in [Aux Light Artillery Station] tiles>",
 					"Can carry [1] [Ballistic Radar & EWS Operator] units <in [Aux Light Artillery Station] tiles>",
 		
-					"Can carry [1] [Fleet Command Operator] units <in [Airforce Transit Depot] tiles>"]
+				//Airforce Transit Depot - Behavior
+					"Can carry [1] [Fleet Command Operator] units <in [Airforce Transit Depot] tiles>",
+		
+				//Base Behavior
+					"Cannot attack",
+					"Limited to [5] per Civilization"]
 	},
 	{
 		"name": "Ballistic Radar & EWS Operator",
@@ -60,9 +64,12 @@
 		"rangedStrength": 0,
 		"range": 1,
 		"cost": 50,
-		"uniques": ["[10] Sight",
-			
-					"[20] Sight <in [Aux Light Artillery Station] tiles>",]
+		"uniques": [
+				//Aux Light Artillery Station - Behavior
+					"[20] Sight <in [Aux Light Artillery Station] tiles>",
+
+				//Base Behavior
+					"[10] Sight"]
 	},
 	{
 		"name": "Fleet Command Operator",
@@ -72,9 +79,12 @@
 		"rangedStrength": 0,
 		"range": 1,
 		"cost": 50,
-		"uniques": ["[1] Sight",
-		
-					"[10] Sight <in [Airforce Transit Depot] tiles>"]
+		"uniques": [
+				//Airforce Transit Depot - Behavior
+					"[10] Sight <in [Airforce Transit Depot] tiles>",
+
+				//Base Behavior
+					"[1] Sight"]
 	},
 	{
 		"name": "Basilisk Operator",
@@ -84,11 +94,14 @@
 		"rangedStrength": 12,
 		"range": 0,
 		"cost": 50,
-		"uniques": ["[1] Sight",
-			
+		"uniques": [
+				//Aux Light Artillery Station - Behavior
 					"[10] Range <in [Aux Light Artillery Station] tiles>",
 					"[15] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Aux Light Artillery Station] tiles>",
-					"[5] Sight <in [Aux Light Artillery Station] tiles>"]
+					"[5] Sight <in [Aux Light Artillery Station] tiles>",
+
+				//Base Behavior
+					"[1] Sight"]
 	},
 
 	//Unused, just to remove errors
