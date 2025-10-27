@@ -1,4 +1,18 @@
 [
+	//Airships
+
+	{
+		"name": "Transport Airship",
+		"unitType": "Airship",
+		"movement": 1,
+		"strength": 100,
+		"range": 1,
+		"cost": 200,
+		"uniques": ["Cannot attack",
+					"[1] Sight",
+					"Can carry [4] [Foot Soldier] units"]
+	},
+	
 	//Infantry
 	
 	{
@@ -8,28 +22,77 @@
 		"strength": 80,
 		"range": 1,
 		"cost": 10,
-		"uniques": ["Founds a new city <by consuming this unit>"]
+		"uniques": ["Founds a new city <by consuming this unit>",
+					"Limited to [1] per Civilization"]
 	},
 	{
-		"name": "Soldier",
+		"name": "Foot Soldier",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 100,
 		"range": 1,
 		"cost": 10,
 	},
-	
-	//Fortress Ordnance
+
+	//Operators
 	
 	{
-		"name": "BASILISK Cannon",
-		"unitType": "Ordnance",
-		"movement": 1,
-		"strength": 80,
-		"rangedStrength": 80,
-		"range": 10,
-		"cost": 30,
-		"attackSound": "phasers"
+		"name": "Strike Commander",
+		"unitType": "Operator",
+		"movement": 2,
+		"strength": 100,
+		"range": 1,
+		"cost": 100,
+		"uniques": ["Cannot attack",
+					"Limited to [5] per Civilization",
+
+				//Aux Light Artillery Station - Behavior
+					"Can carry [3] [Basilisk Operator] units <in [Aux Light Artillery Station] tiles>",
+					"Can carry [1] [Ballistic Radar & EWS Operator] units <in [Aux Light Artillery Station] tiles>",
+		
+				//Airforce Transit Depot - Behavior
+					"Can carry [1] [Fleet Command Operator] units <in [Airforce Transit Depot] tiles>"]
+	},
+	{
+		"name": "Ballistic Radar & EWS Operator",
+		"unitType": "Operator",
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 0,
+		"range": 1,
+		"cost": 50,
+		"uniques": ["[10] Sight",
+			
+				//Aux Light Artillery Station - Behavior
+					"[20] Sight <in [Aux Light Artillery Station] tiles>",]
+	},
+	{
+		"name": "Fleet Command Operator",
+		"unitType": "Operator",
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 0,
+		"range": 1,
+		"cost": 50,
+		"uniques": ["[1] Sight",
+			
+				//Airforce Transit Depot - Behavior
+					"[10] Sight <in [Airforce Transit Depot] tiles>"]
+	},
+	{
+		"name": "Basilisk Operator",
+		"unitType": "Operator",
+		"movement": 2,
+		"strength": 100,
+		"rangedStrength": 12,
+		"range": 0,
+		"cost": 50,
+		"uniques": ["[1] Sight",
+			
+				//Aux Light Artillery Station - Behavior,
+					"[10] Range <in [Aux Light Artillery Station] tiles>",
+					"[15] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Aux Light Artillery Station] tiles>",
+					"[5] Sight <in [Aux Light Artillery Station] tiles>"]
 	},
 
 	//Unused, just to remove errors
