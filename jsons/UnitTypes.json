@@ -5,7 +5,7 @@
 	}
 	{
 		"name": "Ordnance",
-		"movementType": "Air",
+		"movementType": "Land",
 		"uniques": ["Cannot attack <in tiles without [Fortress]>"]
 	}
 ]
