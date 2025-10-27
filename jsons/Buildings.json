@@ -76,12 +76,12 @@
 		"culture": 999,
 		"happiness": 999,
 		"faith": 999,
-		"uniques": ["[+999]% [production]",
-					"[+999]% [food]",
-					"[+999]% [gold]",
-					"[+999]% [science]",
-					"[+999]% [culture]",
-					"[+999]% [happiness]",
-					"[+999]% [faith]"]
+		"uniques": ["[+999]% [Production]",
+					"[+999]% [Food]",
+					"[+999]% [Gold]",
+					"[+999]% [Science]",
+					"[+999]% [Culture]",
+					"[+999]% [Happiness]",
+					"[+999]% [Faith]"]
 	}
 ]
