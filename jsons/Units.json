@@ -51,7 +51,7 @@
 					"Can carry [1] [Ballistic Radar & EWS Operator] units <in [Aux Light Artillery Station] tiles>",
 		
 				//Airforce Transit Depot - Behavior
-					"Can carry [1] [Operator] units <in [Aux Light Artillery Station] tiles>",
+					"Can carry [2] [Operator] units <in [Airforce Transit Depot] tiles>",
 					"Can carry [1] [Fleet Command Operator] units <in [Airforce Transit Depot] tiles>",
 					"Can carry [1] [Medical Ray Station Operator] units <in [Airforce Transit Depot] tiles>",
 			
@@ -79,6 +79,9 @@
 		"uniques": [
 				//Aux Light Artillery Station - Behavior
 					"[20] Sight <in [Aux Light Artillery Station] tiles>",
+
+				//Fort Raptor - Behavior
+					"[20] Sight <in [Fort Raptor] tiles>",
 
 				//Base Behavior
 					"[10] Sight"]
@@ -125,6 +128,11 @@
 					"[15] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Aux Light Artillery Station] tiles>",
 					"[5] Sight <in [Aux Light Artillery Station] tiles>",
 
+				//Fort Raptor - Behavior
+					"[11] Range <in [Fort Raptor] tiles>",
+					"[16] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Fort Raptor] tiles>",
+					"[7] Sight <in [Fort Raptor] tiles>",
+			
 				//Base Behavior
 					"[1] Sight"]
 	},
