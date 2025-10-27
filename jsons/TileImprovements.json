@@ -1,8 +1,8 @@
 [
-	//Fortresses
+	//Ootposts
 	
 	{
-		"name": "Fortress",
+		"name": "Aux Light Artillery Station",
 		"terrainsCanBeBuiltOn": ["Plains", "Mountains"],
 		"uniques": ["Gives a defensive bonus of [+100]%",
 					"Destroyed when pillaged",
