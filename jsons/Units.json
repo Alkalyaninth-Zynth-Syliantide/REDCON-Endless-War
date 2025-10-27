@@ -46,11 +46,9 @@
 		"uniques": ["Cannot attack",
 					"Limited to [5] per Civilization",
 
-				//Aux Light Artillery Station - Behavior
 					"Can carry [3] [Basilisk Operator] units <in [Aux Light Artillery Station] tiles>",
 					"Can carry [1] [Ballistic Radar & EWS Operator] units <in [Aux Light Artillery Station] tiles>",
 		
-				//Airforce Transit Depot - Behavior
 					"Can carry [1] [Fleet Command Operator] units <in [Airforce Transit Depot] tiles>"]
 	},
 	{
@@ -63,7 +61,6 @@
 		"cost": 50,
 		"uniques": ["[10] Sight",
 			
-				//Aux Light Artillery Station - Behavior
 					"[20] Sight <in [Aux Light Artillery Station] tiles>",]
 	},
 	{
@@ -75,8 +72,7 @@
 		"range": 1,
 		"cost": 50,
 		"uniques": ["[1] Sight",
-			
-				//Airforce Transit Depot - Behavior
+		
 					"[10] Sight <in [Airforce Transit Depot] tiles>"]
 	},
 	{
@@ -89,7 +85,6 @@
 		"cost": 50,
 		"uniques": ["[1] Sight",
 			
-				//Aux Light Artillery Station - Behavior,
 					"[10] Range <in [Aux Light Artillery Station] tiles>",
 					"[15] Range <when stacked with a [Ballistic Radar & EWS Operator] unit> <in [Aux Light Artillery Station] tiles>",
 					"[5] Sight <in [Aux Light Artillery Station] tiles>"]
