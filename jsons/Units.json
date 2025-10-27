@@ -22,7 +22,8 @@
 		"strength": 80,
 		"range": 1,
 		"cost": 10,
-		"uniques": ["Founds a new city <by consuming this unit>",
+		"uniques": ["Can build [Land] improvements on tiles",
+					"Founds a new city",
 					"Limited to [1] per Civilization"]
 	},
 	{
