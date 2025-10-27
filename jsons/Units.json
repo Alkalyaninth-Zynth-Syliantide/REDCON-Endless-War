@@ -42,15 +42,24 @@
 		"unitType": "Commander",
 		"movement": 2,
 		"strength": 100,
-		"range": 1,
+		"range": 0,
 		"cost": 100,
 		"uniques": [
 				//Aux Light Artillery Station - Behavior
+					"Can carry [4] [Operator] units <in [Aux Light Artillery Station] tiles>",
 					"Can carry [3] [Basilisk Operator] units <in [Aux Light Artillery Station] tiles>",
 					"Can carry [1] [Ballistic Radar & EWS Operator] units <in [Aux Light Artillery Station] tiles>",
 		
 				//Airforce Transit Depot - Behavior
+					"Can carry [1] [Operator] units <in [Aux Light Artillery Station] tiles>",
 					"Can carry [1] [Fleet Command Operator] units <in [Airforce Transit Depot] tiles>",
+					"Can carry [1] [Medical Ray Station Operator] units <in [Airforce Transit Depot] tiles>",
+			
+				//Fort Raptor - Behavior
+					"Can carry [5] [Operator] units <in [Fort Raptor] tiles>",
+					"Can carry [3] [Basilisk Operator] units <in [Fort Raptor] tiles>",
+					"Can carry [1] [Ballistic Radar & EWS Operator] units <in [Fort Raptor] tiles>",
+					"Can carry [1] [Medical Ray Station Operator] units <in [Fort Raptor] tiles>",
 		
 				//Base Behavior
 					"Cannot attack",
@@ -65,7 +74,7 @@
 		"movement": 2,
 		"strength": 100,
 		"rangedStrength": 0,
-		"range": 1,
+		"range": 0,
 		"cost": 50,
 		"uniques": [
 				//Aux Light Artillery Station - Behavior
@@ -80,7 +89,7 @@
 		"movement": 2,
 		"strength": 100,
 		"rangedStrength": 0,
-		"range": 1,
+		"range": 0,
 		"cost": 50,
 		"uniques": [
 				//Airforce Transit Depot - Behavior
@@ -88,6 +97,19 @@
 
 				//Base Behavior
 					"[1] Sight"]
+	},
+	{
+		"name": "Medical Ray Station Operator",
+		"unitType": "Operator",
+		"movement": 2,
+		"strength": 80,
+		"rangedStrength": 0,
+		"range": 0,
+		"cost": 50,
+		"uniques": [
+				//Base Behavior
+					"[1] Sight",
+					"All adjacent units heal [2] HP when healing"]
 	},
 	{
 		"name": "Basilisk Operator",
